@@ -1,12 +1,16 @@
-﻿using System;
+﻿using Onboarding;
+using System;
 
-namespace ConsoleApp1
+namespace Onboarding
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var mySubmission = new Submission();
+            mySubmission.Title = "new Submission";
+            mySubmission.User = "My Email name";
+
         }
     }
 }
